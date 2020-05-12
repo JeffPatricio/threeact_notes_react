@@ -1,10 +1,13 @@
-import React from 'react';
+import React, { useState, useEffect, useContext, Fragment } from 'react';
+import GlobalStyles from './styles/global';
+import PublicRoutes from './routes/PublicRoutes';
 
 const App = () => {
   return (
-    <div>
-      <h1>Notes</h1>
-    </div>
+    <Fragment>
+      <GlobalStyles />
+      <PublicRoutes />
+    </Fragment>
   )
 }
 
